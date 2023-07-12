@@ -11,11 +11,11 @@ public class MyApplication {
         Message message = new Message();
         message.setMessage("Yor package arrived");
 
-        AnnotationConfigApplicationContext contex = new AnnotationConfigApplicationContext(AppConfiguration_RPT.class);
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfiguration_RPT.class);
 
-        MailService mailService = contex.getBean(MailService.class);
+        MailService mailService = context.getBean(MailService.class);
         mailService.sendMessage(message);
-        contex.close();
+        context.close();
 
     }
 }

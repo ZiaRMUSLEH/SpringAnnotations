@@ -1,13 +1,15 @@
 package com.tpe.domain;
 
 public class Message {
+
     private String message;
 
-    public String getMessage () {
+    public String getMessage(){
         return message;
     }
 
-    public void setMessage (String message) {
+    public void setMessage(String message){
         this.message = message;
     }
+
 }

@@ -2,7 +2,7 @@ package com.tpe_RPT.domain;
 
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Message {
     private String message;
 
